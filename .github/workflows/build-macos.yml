@@ -1,4 +1,4 @@
-name: build-windows
+name: build-macos
 
 on:
   push:
@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-windows:
-    runs-on: windows-latest
+  build-macos:
+    runs-on: macos-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -31,9 +31,9 @@ jobs:
       - name: Build Tauri app
         run: npx tauri build
 
-      - name: Upload Windows bundle
+      - name: Upload macOS bundle
         uses: actions/upload-artifact@v4
         with:
-          name: windows-bundle
+          name: macos-bundle
           path: src-tauri/target/release/bundle/**
           if-no-files-found: error

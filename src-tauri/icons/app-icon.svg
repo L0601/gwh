@@ -1,0 +1,35 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="64" y1="56" x2="450" y2="454" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F766E"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="150" y1="122" x2="350" y2="378" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF5"/>
+      <stop offset="1" stop-color="#F4EFE2"/>
+    </linearGradient>
+    <linearGradient id="pen" x1="318" y1="296" x2="382" y2="362" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F97316"/>
+      <stop offset="1" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="32" y="32" width="448" height="448" rx="112" fill="url(#bg)"/>
+  <circle cx="392" cy="132" r="44" fill="#F59E0B" opacity="0.92"/>
+  <path d="M392 100L400.854 118.146L421 121.09L406.5 135.236L409.708 155.41L392 146.02L374.292 155.41L377.5 135.236L363 121.09L383.146 118.146L392 100Z" fill="#FFF7D6"/>
+
+  <rect x="136" y="110" width="208" height="288" rx="34" fill="url(#paper)"/>
+  <rect x="136" y="110" width="208" height="288" rx="34" stroke="#D6D3C8" stroke-width="8"/>
+  <path d="M176 176H296" stroke="#0F766E" stroke-width="16" stroke-linecap="round"/>
+  <path d="M176 224H288" stroke="#93C5FD" stroke-width="14" stroke-linecap="round" opacity="0.95"/>
+  <path d="M176 268H272" stroke="#93C5FD" stroke-width="14" stroke-linecap="round" opacity="0.82"/>
+  <path d="M176 312H256" stroke="#93C5FD" stroke-width="14" stroke-linecap="round" opacity="0.68"/>
+  <path d="M172 222L186 236L214 208" stroke="#0F766E" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="rotate(-18 350 332)">
+    <rect x="286" y="312" width="110" height="38" rx="18" fill="url(#pen)"/>
+    <rect x="274" y="312" width="26" height="38" rx="12" fill="#FDBA74"/>
+    <path d="M396 312H422L410 350H396V312Z" fill="#FDE68A"/>
+    <path d="M422 312L438 331L422 350H410L422 312Z" fill="#7C2D12"/>
+  </g>
+</svg>

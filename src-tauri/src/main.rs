@@ -1,5 +1,5 @@
 #![cfg_attr(not(debug_assertions), windows_subsystem = "windows")]
 
 fn main() {
-    editor_desk_lib::run()
+    gaochou_bu_lib::run()
 }
